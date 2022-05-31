@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./multimedia/Rocket-Comics.ico">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <div class="log">
+            <a href="#"><img src="./multimedia/Rocket-Comics.ico" alt=""></a>
+        </div>
+
+        <input type="checkbox" id="menu__nav">
+        <label for="menu__nav" class="lab__lab"><i class='bx bxs-ghost'></i></label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biblioteca.html">Biblioteca <i class='bx bxs-chevron-down flechita'></i></a>
+                    <ul>
+                        <li><a href="biblioteca.html">Comics</a></li>
+                        <li><a href="biblioteca.html">Mangas</a></li>
+                        <li><a href="biblioteca.html">Novelas</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sesion.html"><i class='bx bxs-user-circle'></i></a></li>
+                <li><a href="#"><i class='bx bxs-shopping-bag' id="cart-icon"></i></a></li>
+            </ul>
+
+            <div class="cart" id="cart">
+
+                <h2 class="cart-title">Tu Compra</h2>
+
+                <div class="cart-content">
+
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <button type="button" class="btn-buy">Comprar</button>
+
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="section__dos">
+
+
+        <div class="sesion__form">
+            <div class="login">
+                <h1 class="inciar__sesion">INICIAR SESION</h1>
+            </div>
+
+            <form class="form__ini" id="form__ini">
+
+                <div class="form__iniciar" id="grupo__email">
+                    <label for="email" class="form__label">Email :</label>
+                    <div class="form__grupo-input">
+                        <input type="email" class="form__input" name="email" id="email" required>
+                    </div>
+                </div>
+
+                <div class="form__iniciar" id="grupo__password">
+                    <label for="password" class="form__label">Contraseña :</label>
+                    <div class="form__grupo-input">
+                        <input type="password" class="form__input" name="password" id="password" required>
+                    </div>
+                </div>
+
+                <div class="form__iniciar form__boton-enviar">
+                    <button type="submit" class="form__botonn">Enviar</button>
+                </div>
+
+               <p class="sin__cuenta"><a href="#">No tenes cuenta...??</a></p>
+
+            </form>
+
+           
+
+        </div>
+
+        <div class="sesion_img">
+            <img src="./multimedia/Comics/Amazing-Spider-Man-uno.jpg" alt="" class="eee">
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="titulo">
+            <h3>ROCKET COMICS</h3>
+            <ul class="red-social">
+              <li>
+                 <a href=""><i class='bx bxl-instagram iccc'></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="copy">
+            <p>copyright &copy;2022 Rocket Comics - <span>TODOS LOS DERECHOS RESERVADOS.</span></p>
+          </div>
+    </footer>
+
+    
+
+    <script src="./js/sesion.js"></script>
+
+    
+</body>
+</html>

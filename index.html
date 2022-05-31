@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Comics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./multimedia/Rocket-Comics.ico">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="log">
+            <a href="#"><img src="./multimedia/Rocket-Comics.ico" alt=""></a>
+        </div>
+
+        <input type="checkbox" id="menu__nav">
+        <label for="menu__nav" class="lab__lab"><i class='bx bxs-ghost'></i></label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="biblioteca.html">Biblioteca <i class='bx bxs-chevron-down flechita'></i></a>
+                    <ul>
+                        <li><a href="biblioteca.html">Comics</a></li>
+                        <li><a href="biblioteca.html">Mangas</a></li>
+                        <li><a href="biblioteca.html">Novelas</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sesion.html"><i class='bx bxs-user-circle'></i></a></li>
+                <li><a href="#"><i class='bx bxs-shopping-bag' id="cart-icon"></i></a></li>
+            </ul>
+
+            <div class="cart" id="cart">
+
+                <h2 class="cart-title">Tu Compra</h2>
+
+                <div class="cart-content">
+
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <button type="button" class="btn-buy">Comprar</button>
+
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./multimedia/chain.jpg" class="d-block w-100 ppp" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./multimedia/samurai__x.jpg" class="d-block w-100 ppp" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./multimedia/x-men.jpg" class="d-block w-100 ppp" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <section class="shop">
+        <h2 class="section-title">NUESTROS cOMICS</h2>
+
+        <div class="shop-content">
+
+            <!-- carta 1-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Nightwing__uno.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nightwing</h2>
+                <span class="price">$770</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 2-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Thief-Of-Thieves.jpg" alt="" class="product-img">
+                <h2 class="product-title">Thief Of Thieves</h2>
+                <span class="price">$570</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 3-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Batman__uno.jpg" alt="" class="product-img">
+                <h2 class="product-title">Batman</h2>
+                <span class="price">$880</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 4-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Avengers__uno.jpg" alt="" class="product-img">
+                <h2 class="product-title">Avengers</h2>
+                <span class="price">$900</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 5-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Daredevil.png" alt="" class="product-img">
+                <h2 class="product-title">Daredevil</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+        </div>  
+        
+        <button class="btn-enlace"><a href=""> Ver mas productos</a></button>
+
+
+        <!--parte 2-->
+        <h2 class="section-title">NUESTROS MANGAS</h2>
+
+        <div class="shop-content">
+
+            <!-- carta 1-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/btooom-01.jpg" alt="" class="product-img">
+                <h2 class="product-title">B-tooom</h2>
+                <span class="price">$770</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 2-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/black-lagoon.jpg" alt="" class="product-img">
+                <h2 class="product-title">Black Lagon</h2>
+                <span class="price">$570</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 3-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/deadman-wonderland.jpg" alt="" class="product-img">
+                <h2 class="product-title">Deadman Wonderland</h2>
+                <span class="price">$880</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 4-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/dorohedoro.jpg" alt="" class="product-img">
+                <h2 class="product-title">Dorohedoro</h2>
+                <span class="price">$900</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 5-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/nisekoi.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nisekoi</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+        </div>
+
+        <button class="btn-enlace"><a href=""> Ver mas productos</a></button>
+
+        <!--parte 3-->
+
+        <h2 class="section-title">NUESTRAS NOVELAS</h2>
+
+        <div class="shop-content">
+
+            <!-- carta 1-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/espada_destino.png" alt="" class="product-img">
+                <h2 class="product-title">La Espada del Destino</h2>
+                <span class="price">$770</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 2-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/bautizmo__de__fuego.png" alt="" class="product-img">
+                <h2 class="product-title">Bautizmo de Fuego</h2>
+                <span class="price">$570</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 3-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/la__niebla.png" alt="" class="product-img">
+                <h2 class="product-title">La Niebla</h2>
+                <span class="price">$880</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 4-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/farenheit.jpg" alt="" class="product-img">
+                <h2 class="product-title">Farenheit</h2>
+                <span class="price">$900</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 5-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/mistery__salem.jpg" alt="" class="product-img">
+                <h2 class="product-title">Mistery Salem</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+        </div>
+
+        <button class="btn-enlace"><a href=""> Ver mas productos</a></button>
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="titulo">
+            <h3>ROCKET COMICS</h3>
+            <ul class="red-social">
+              <li>
+                 <a href=""><i class='bx bxl-instagram iccc'></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="copy">
+            <p>copyright &copy;2022 Rocket Comics - <span>TODOS LOS DERECHOS RESERVADOS.</span></p>
+          </div>
+    </footer>
+
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

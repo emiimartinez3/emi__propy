@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./multimedia/Rocket-Comics.ico">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="log">
+            <a href="#"><img src="./multimedia/Rocket-Comics.ico" alt=""></a>
+        </div>
+
+        <input type="checkbox" id="menu__nav">
+        <label for="menu__nav" class="lab__lab"><i class='bx bxs-ghost'></i></label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biblioteca.html">Biblioteca <i class='bx bxs-chevron-down flechita'></i></a>
+                    <ul>
+                        <li><a href="biblioteca.html">Comics</a></li>
+                        <li><a href="biblioteca.html">Mangas</a></li>
+                        <li><a href="biblioteca.html">Novelas</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sesion.html"><i class='bx bxs-user-circle'></i></a></li>
+                <li><a href="#"><i class='bx bxs-shopping-bag' id="cart-icon"></i></a></li>
+            </ul>
+
+            <div class="cart" id="cart">
+
+                <h2 class="cart-title">Tu Compra</h2>
+
+                <div class="cart-content">
+
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <button type="button" class="btn-buy">Comprar</button>
+
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="shop">
+        <h2 class="section-title">NUESTROS COMICS</h2>
+
+        <div class="shop-content">
+
+            <!-- carta 1-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Nightwing__uno.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nightwing</h2>
+                <span class="price">$770</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 2-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Thief-Of-Thieves.jpg" alt="" class="product-img">
+                <h2 class="product-title">Thief Of Thieves</h2>
+                <span class="price">$570</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 3-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Batman__uno.jpg" alt="" class="product-img">
+                <h2 class="product-title">Batman</h2>
+                <span class="price">$880</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 4-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Avengers__uno.jpg" alt="" class="product-img">
+                <h2 class="product-title">Avengers</h2>
+                <span class="price">$900</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 5-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Daredevil.png" alt="" class="product-img">
+                <h2 class="product-title">Daredevil</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 6-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Daredevil.png" alt="" class="product-img">
+                <h2 class="product-title">Daredevil</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 7-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Daredevil.png" alt="" class="product-img">
+                <h2 class="product-title">Daredevil</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 8-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Daredevil.png" alt="" class="product-img">
+                <h2 class="product-title">Daredevil</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 9-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Daredevil.png" alt="" class="product-img">
+                <h2 class="product-title">Daredevil</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 10-->
+            <div class="product-box">
+                <img src="./multimedia/Comics/Daredevil.png" alt="" class="product-img">
+                <h2 class="product-title">Daredevil</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+        </div>  
+    
+
+
+        <!--parte 2-->
+        <h2 class="section-title">NUESTROS MANGAS</h2>
+
+        <div class="shop-content">
+
+            <!-- carta 1-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/btooom-01.jpg" alt="" class="product-img">
+                <h2 class="product-title">B-tooom</h2>
+                <span class="price">$770</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 2-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/black-lagoon.jpg" alt="" class="product-img">
+                <h2 class="product-title">Black Lagon</h2>
+                <span class="price">$570</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 3-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/deadman-wonderland.jpg" alt="" class="product-img">
+                <h2 class="product-title">Deadman Wonderland</h2>
+                <span class="price">$880</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 4-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/dorohedoro.jpg" alt="" class="product-img">
+                <h2 class="product-title">Dorohedoro</h2>
+                <span class="price">$900</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 5-->
+            <div class="product-box">
+                <img src="./multimedia/Manga/nisekoi.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nisekoi</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 6-->
+             <div class="product-box">
+                <img src="./multimedia/Manga/nisekoi.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nisekoi</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 7-->
+             <div class="product-box">
+                <img src="./multimedia/Manga/nisekoi.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nisekoi</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 8-->
+             <div class="product-box">
+                <img src="./multimedia/Manga/nisekoi.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nisekoi</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 9-->
+             <div class="product-box">
+                <img src="./multimedia/Manga/nisekoi.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nisekoi</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 10-->
+             <div class="product-box">
+                <img src="./multimedia/Manga/nisekoi.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nisekoi</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+        </div>
+
+        <!--parte 3-->
+
+        <h2 class="section-title">NUESTRAS NOVELAS</h2>
+
+        <div class="shop-content">
+
+            <!-- carta 1-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/espada_destino.png" alt="" class="product-img">
+                <h2 class="product-title">La Espada del Destino</h2>
+                <span class="price">$770</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 2-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/bautizmo__de__fuego.png" alt="" class="product-img">
+                <h2 class="product-title">Bautizmo de Fuego</h2>
+                <span class="price">$570</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 3-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/la__niebla.png" alt="" class="product-img">
+                <h2 class="product-title">La Niebla</h2>
+                <span class="price">$880</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- carta 4-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/farenheit.jpg" alt="" class="product-img">
+                <h2 class="product-title">Farenheit</h2>
+                <span class="price">$900</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- carta 5-->
+            <div class="product-box">
+                <img src="./multimedia/Novela/mistery__salem.jpg" alt="" class="product-img">
+                <h2 class="product-title">Mistery Salem</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 6-->
+             <div class="product-box">
+                <img src="./multimedia/Novela/estacion__de__torme.jpg" alt="" class="product-img">
+                <h2 class="product-title">Estacion de Tormenta</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 6-->
+             <div class="product-box">
+                <img src="./multimedia/Novela/la__dama__lago .png" alt="" class="product-img">
+                <h2 class="product-title">La Dama del Lago</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 8-->
+             <div class="product-box">
+                <img src="./multimedia/Novela/temor__de__hombre.jpg" alt="" class="product-img">
+                <h2 class="product-title">Temor de Hombre</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 9-->
+             <div class="product-box">
+                <img src="./multimedia/Novela/La-niebla.jpg" alt="" class="product-img">
+                <h2 class="product-title">La Niebla</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+             <!-- carta 10-->
+             <div class="product-box">
+                <img src="./multimedia/Novela/la__pareja.png" alt="" class="product-img">
+                <h2 class="product-title">La Pareja de al Lado</h2>
+                <span class="price">$990</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="titulo">
+            <h3>ROCKET COMICS</h3>
+            <ul class="red-social">
+              <li>
+                 <a href=""><i class='bx bxl-instagram iccc'></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="copy">
+            <p>copyright &copy;2022 Rocket Comics - <span>TODOS LOS DERECHOS RESERVADOS.</span></p>
+          </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
